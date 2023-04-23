@@ -6,8 +6,6 @@ class Business_card:
         self.company_name = company_name
         self.position = position
         self.email = email
-    #def __str__(self):
-        #return f'{self.name} {self.surname} {self.email}'
     def _contact(self):
         return f'Kontaktuję się z ... {self.name} {self.surname} {self.position} {self.email}'
 
